@@ -39,7 +39,7 @@ app.get("/api/1s", async (req, res) => {
   //   console.log("GET Request starts: " + process.pid);
   await sleep(5_000);
   //   console.log("GET Request end: " + process.pid);
-  res.json({ message: "from my-app 1s v3 pid: " + process.pid });
+  res.json({ message: "from my-app 1s v4 pid: " + process.pid });
 });
 
 // // Start server
